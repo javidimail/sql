@@ -19,8 +19,12 @@ source ~/.bashrc
 sqlcmd -S localhost -U SA -P '<YourPassword>'
 ```
 
+Note:
+If you plan to connect remotely, you might also need to open the SQL Server TCP port (default 1433) on your firewall.
+
 
 Reference:
 ```
 https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu
 ```
+
