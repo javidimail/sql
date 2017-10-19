@@ -18,3 +18,9 @@ echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 source ~/.bashrc
 sqlcmd -S localhost -U SA -P '<YourPassword>'
 ```
+
+
+Reference:
+```
+https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu
+```
